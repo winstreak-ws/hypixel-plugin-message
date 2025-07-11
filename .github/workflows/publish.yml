@@ -42,7 +42,7 @@ jobs:
         with:
           node-version: 20
           registry-url: https://npm.pkg.github.com/
-          scope: '@${{ github.repository_owner }}'
+          scope: '@winstreak-ws'
       - run: cd package && npm ci --omit=dev
       - run: cd package && npm publish
         env:
