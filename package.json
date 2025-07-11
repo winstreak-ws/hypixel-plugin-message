@@ -1,5 +1,5 @@
 {
-  "name": "@dueel/hypixel-plugin-message-npm",
+  "name": "@winstreak-ws/hypixel-plugin-message-npm",
   "version": "0.3.3",
   "description": "",
   "main": "./lib/mod.js",
@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/@Dueel"
+    "registry":"https://npm.pkg.github.com/@winstreak-ws"
   },
   "dependencies": {
     "@lilithmod/unborn-mcproto": "^0.14.0",
